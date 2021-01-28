@@ -88,7 +88,7 @@ double DoubleType::multiply( double lhs, double rhs )
 }
 double DoubleType::divide( double lhs, double rhs )
 {
-    if ( rhs == 0.0f )
+    if ( rhs == 0.0 )
         std::cout << "warning, floating point division by zero returns 'inf' !" << std::endl;
 
     return (lhs / rhs);
